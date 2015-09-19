@@ -1,0 +1,22 @@
+{
+  "name": "h4d/template",
+  "description": "Basic PHP template system",
+  "keywords": [
+    "template"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miguel Ángel Graña",
+      "email": "miguel.mailbox@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {},
+  "repositories": [],
+  "autoload": {
+    "psr-4": {"H4D\\Template\\": "src"}
+  }
+}
