@@ -2,6 +2,22 @@
 
 This is a very basic PHP library that helps you work with plain text format templates (txt, html, etc).
 
+# Install via composer:
+
+Add to your composer.json:
+ 
+    {
+      "require": {
+        "h4d/template": "^1.0"
+      },
+      "repositories": [
+        {
+          "type": "vcs",
+          "url": "git@dev.edusalguero.com:h4d/template.git"
+        }
+      ]
+    }
+
 ## Basic usage examples
 
 ### Using constructor
