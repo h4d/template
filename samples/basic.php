@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__.'/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 // INI: Example using constructor //////////////////////////////////////////////////////////////////
 // Create a template
@@ -8,7 +8,7 @@ $template = new \H4D\Template\Template();
 // Add vars to the template object
 $template->addVar('name', 'WORLD');
 // Render using the given file as template
-echo $template->render('./template.txt');
+echo $template->render(__DIR__ . '/template.txt');
 // END: Example using constructor //////////////////////////////////////////////////////////////////
 
 
