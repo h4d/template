@@ -22,7 +22,7 @@ abstract class AbstractTemplate
     protected $templateFile;
 
     /**
-     * @param array $options
+     * @param array $options Assoc. array
      *
      * @throws RequiredOptionMissedException
      */
