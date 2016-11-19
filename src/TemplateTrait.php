@@ -11,7 +11,7 @@ trait TemplateTrait
     /**
      * @var array
      */
-    protected $templateVars = array();
+    protected $templateVars = [];
 
     /**
      * @param array $vars Associative array
