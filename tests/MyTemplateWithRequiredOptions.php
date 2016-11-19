@@ -1,7 +1,8 @@
 <?php
 
+namespace H4D\Template\Tests\Unit;
 
-class MyTemplate extends \H4D\Template\Template
+class MyTemplateWithRequiredOptions extends \H4D\Template\Template
 {
     /**
      * @var array
