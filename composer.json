@@ -19,6 +19,9 @@
   },
   "repositories": [],
   "autoload": {
-    "psr-4": {"H4D\\Template\\": "src"}
+    "psr-4": {
+      "H4D\\Template\\": "src",
+      "H4D\\Template\\Tests\\Unit\\": "tests"
+    }
   }
 }
