@@ -87,7 +87,7 @@ trait TemplateTrait
      * addTemplateVar alias
      *
      * @param string $name
-     * @param string $value
+     * @param mixed $value
      *
      * @return $this
      */
