@@ -136,7 +136,6 @@ trait TemplateTrait
         }
         try
         {
-            $this->addTemplateVar('this', $this);
             extract($this->getTemplateVars());
             ob_start();
             /** @noinspection PhpIncludeInspection */
